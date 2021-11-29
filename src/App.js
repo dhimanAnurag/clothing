@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import './homepage.style.scss';
+import HomePage from "./homepage.component" ;
 
 function App() {
   return (
-    <div className="App">
-     <h1> Added the ssh key </h1>
-    </div>
+    <div> 
+      <HomePage /> 
+      </div>
   );
 }
 
